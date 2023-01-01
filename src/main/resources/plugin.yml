@@ -1,0 +1,20 @@
+name: Formation
+version: '${version}'
+main: fr.zadiho.formation.Formation
+authors: [ ZaDiHo ]
+description: Formation plugin
+
+commands:
+  setspawn:
+    description: "Définir le point d'apparition du serveur"
+    aliases:
+      - setlobby
+  spawn:
+    description: "Se téléporter au spawn"
+    aliases:
+      - lobby
+      - hub
+  broadcast:
+    description: "Envoyer un message à tous les joueurs"
+    aliases:
+      - bc
